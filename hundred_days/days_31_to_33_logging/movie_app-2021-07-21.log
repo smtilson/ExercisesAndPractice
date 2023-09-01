@@ -1,0 +1,37 @@
+[2021-07-21 14:03:49.263098] NOTICE: startup: Logging initialized, level: 9, mode: file mode: movie_app.log
+[2021-07-21 14:03:52.248909] TRACE: API: Starting search for Jazz
+[2021-07-21 14:03:53.346760] TRACE: API: Request finished. Status code:200
+[2021-07-21 14:03:53.347393] TRACE: API: finished search for Jazz. 7 in 1098 milliseconds.
+[2021-07-21 14:03:53.347814] TRACE: app: Search Successful: keyword: Jazz, 7 results.
+[2021-07-21 14:06:05.542690] NOTICE: startup: Logging initialized, level: 9, mode: file mode: movie_app.log
+[2021-07-21 14:06:09.103060] TRACE: API: Starting search for Jones
+[2021-07-21 14:06:10.483782] TRACE: API: Request finished. Status code:200
+[2021-07-21 14:06:10.484290] TRACE: API: finished search for Jones. 10 in 1381 milliseconds.
+[2021-07-21 14:06:10.484783] TRACE: app: Search Successful: keyword: Jones, 10 results.
+[2021-07-21 14:06:15.305537] NOTICE: startup: Logging initialized, level: 9, mode: file mode: movie_app.log
+[2021-07-21 14:06:20.281076] TRACE: API: Starting search for 
+[2021-07-21 14:06:20.281356] WARNING: API: No keyword supplied.
+[2021-07-21 14:06:20.281539] WARNING: app: Must specify a search term.
+[2021-07-21 14:06:23.110193] NOTICE: startup: Logging initialized, level: 9, mode: file mode: movie_app.log
+[2021-07-21 14:06:33.209360] TRACE: API: Starting search for Johnson
+[2021-07-21 14:06:34.322730] TRACE: API: Request finished. Status code:200
+[2021-07-21 14:06:34.323173] TRACE: API: finished search for Johnson. 1 in 1113 milliseconds.
+[2021-07-21 14:06:34.323446] TRACE: app: Search Successful: keyword: Johnson, 1 results.
+[2021-07-21 14:06:39.429338] NOTICE: startup: Logging initialized, level: 9, mode: file mode: movie_app.log
+[2021-07-21 14:06:46.742849] TRACE: API: Starting search for Sam
+[2021-07-21 14:06:47.736899] TRACE: API: Request finished. Status code:200
+[2021-07-21 14:06:47.737440] TRACE: API: Random error created artificially.
+[2021-07-21 14:06:47.737656] ERROR: app: 
+Traceback (most recent call last):
+  File "/Users/seantilson/PycharmProjects/AutomateBoringExercises/hundred_days/days_31_to_33_logging/day_31.py", line 13, in main
+    results = api.find_movie_by_title(keyword)
+  File "/Users/seantilson/PycharmProjects/AutomateBoringExercises/hundred_days/days_31_to_33_logging/api.py", line 29, in find_movie_by_title
+    results = create_random_errors(results)
+  File "/Users/seantilson/PycharmProjects/AutomateBoringExercises/hundred_days/days_31_to_33_logging/api.py", line 52, in create_random_errors
+    raise StopIteration()
+StopIteration
+[2021-07-21 14:06:52.882021] NOTICE: startup: Logging initialized, level: 9, mode: file mode: movie_app.log
+[2021-07-21 14:06:55.207560] TRACE: API: Starting search for Sam
+[2021-07-21 14:06:56.575557] TRACE: API: Request finished. Status code:200
+[2021-07-21 14:06:56.576300] TRACE: API: finished search for Sam. 10 in 1368 milliseconds.
+[2021-07-21 14:06:56.576737] TRACE: app: Search Successful: keyword: Sam, 10 results.

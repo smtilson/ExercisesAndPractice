@@ -1,0 +1,8 @@
+pyperclip
+zombiedice
+pytest
+pytest-cov
+flask
+requests
+logbook
+
