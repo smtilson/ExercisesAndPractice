@@ -6,3 +6,6 @@ flask
 requests
 logbook
 
+django
+django-restframework
+

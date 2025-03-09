@@ -1,0 +1,7 @@
+creds.js
+node_modules
+venv/
+.env
+session_name.session
+session_name.session-journal
+telegran_search_results.log
