@@ -20,9 +20,11 @@ telegran_search_results.log
 
 # Ignore all logfiles and tempfiles.
 /log/*
+*/log/*
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+temp_text_file.txt
 
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*
@@ -40,3 +42,6 @@ telegran_search_results.log
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#other repo
+/netrunner/*
