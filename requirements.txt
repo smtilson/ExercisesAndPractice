@@ -9,3 +9,10 @@ logbook
 django
 django-restframework
 
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+jupyter
+
